@@ -1,4 +1,4 @@
-package com.test;
+package com.csvreader;
 
 public class Employee {
 
@@ -13,6 +13,9 @@ public class Employee {
         this.name = name;
         this.surname = surname;
         this.departmentId = departmentId;
+    }
+
+    public Employee() {
     }
 
     public String getId() {
@@ -57,7 +60,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return getName() + " "
-                + getSurname() + " " + getDepartment().getName();
+        return getId() + " " + getName() + " "
+                + getSurname() + " " + getDepartmentId();
     }
 }

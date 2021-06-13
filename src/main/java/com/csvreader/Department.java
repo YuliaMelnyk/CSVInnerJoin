@@ -1,4 +1,4 @@
-package com.test;
+package com.csvreader;
 
 public class Department {
 
@@ -8,6 +8,9 @@ public class Department {
     public Department(String id, String name) {
         this.id = id;
         this.name = name;
+    }
+    public Department(){
+
     }
 
     public String getId() {
