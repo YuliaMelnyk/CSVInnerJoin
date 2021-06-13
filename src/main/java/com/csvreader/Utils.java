@@ -14,7 +14,6 @@ public class Utils {
 
 
     public static Employee parseCSVEmployee(String[] columns) {
-
         Employee employee = new Employee();
         employee.setId(columns[0]);
         employee.setName(columns[1]);
@@ -25,7 +24,6 @@ public class Utils {
     }
 
     public static Department parseCSVDepartment(String[] columns) {
-
         Department department = new Department();
         department.setId(columns[0]);
         department.setName(columns[1]);
